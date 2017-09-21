@@ -1,0 +1,5 @@
+input/*
+!input/Lenna.png
+output
+pattern/*
+!pattern/brick.png

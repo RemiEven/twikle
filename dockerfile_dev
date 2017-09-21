@@ -1,0 +1,8 @@
+FROM golang:1.8
+
+RUN mkdir -p $GOPATH/src/twikle
+WORKDIR $GOPATH/src/twikle
+
+RUN go get github.com/nfnt/resize github.com/containous/flaeg
+
+CMD bash
