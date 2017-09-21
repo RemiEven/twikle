@@ -1,6 +1,8 @@
 ## Twikle
 
-Twikle is a small utility that applies a pattern to png images.
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+Twikle is a small utility that applies a pattern over png images.
 
 ![demo](demo/demo.png)
 
@@ -18,7 +20,7 @@ docker build . -t twikle
 ./twikle.sh -i Lenna.png --pattern=brick.png --patternscale=20
 ```
 
-Input images must be in the folder `images/input/`, patterns must be in the folder `images/pattern/`. Output images will be written in `images/output/`. 
+Input images must be in the folder `images/input/`, patterns must be in the folder `images/pattern/`. Output images will be written in `images/output/`.
 
 Help is available with `./twikle.sh -h`.
 
